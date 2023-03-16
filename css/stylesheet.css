@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+ }
+
+ body {
+      font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .grid-container {
+       display: flex;
+       height: 1000px;
+     object-fit: fill;
+       
+ }
+ 
+ .grid-container .grid-item1 {
+       width: 40%;
+       background-color: #eceeee;
+ }
+ 
+ .grid-item1 h1 {
+      padding: 10px;
+       color: #213862;
+       
+ }
+
+ .grid-item1 h2 {
+      padding: 10px;
+      color: #213862;
+}
+
+.grid-item1 h3 {
+      padding: 10px;
+      color: #213862;
+}
+
+ .grid-item1 .profile-photo img {
+      padding: 10px;
+      width: 180px;
+ }
+ 
+ 
+ .grid-item2 h1 {
+       color: grey;
+       
+ }
+ 
+ .grid-container .grid-item2 {
+       width: 70%;
+       background-color: #213862;
+ }
+
+ .contact-details {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      margin: 10px;
+      font-size: 18px;
+      color: #213862;
+
+ }
+
+ .contact-details .details1 {
+      font-size: 20px;
+ }
+
+ 
+ .contact-details .social-media {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+ }
+
+ .contact-details .social-media a {
+      margin-left: -10px;
+      padding: 10px;
+      font-size: 20px;
+      color: #213862;
+ }
+
+ 
+
+ form {
+      padding: 10px;
+      margin-top: 40px;
+      font-size: 18px;
+      color: #213862;
+ }
+
+ form input {
+      padding: 10px;
+      margin-top: 15px;
+      background-color: #fff;
+ }
+
+ form label {
+      padding: 10px;
+      margin-top: 15px;
+ }
+
+ form textarea {
+      padding: 10px;
+      background-color: #fff;
+ }
+
+ button {
+      padding: 20px;
+      background-color: #213862;
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 1rem;
+      width: 100px;
+      font-size: 16px;
+ }
+
+ .grid-item2 {
+      padding: 10px;
+ }
+
+ .grid-item2 h1 {
+      margin-top: 10px;
+ }
+
+
+ .grid-item2 p {
+
+      font-size: 18px;
+      color: grey;
+ }
+
+ .grid-item2 ul {
+      list-style: none;
+      margin: 30px;
+ }
+
+ .grid-item2 ul li {
+      font-size: 18px;
+      color: grey;
+ }
+
+ 
+
+ @media (max-width: 420px) {
+      .grid-container {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .grid-container .grid-item1 {
+            width: 100%;
+      }
+
+      form textarea {
+            width: 95%;
+      }
+
+      .grid-container .grid-item2 {
+            width: 100%;
+      }
+
+    }
+
+
+
+
+
+ 
+ 
+ 
